@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <style>
+        body{
+            background-color: #F0CD48;
+        }
+        .circle_down_right{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background-color:#66284A;
+            border-radius: 50%;
+            left: 420px;
+            bottom: 70px;
+        } 
+        .circle_down_left{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background-color: #66284A;
+            border-radius: 50%;
+            left:120px;
+            bottom: 70px;
+           
+        }
+        .circle_up{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background:  #66284A;
+            border-radius: 50%;
+            top: 110px;
+            left: 270px;
+          
+        }
+        .triangle{
+            position: relative;
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 200px solid #66284A ;
+            top: 200px;
+            left: 200px;
+            z-index: 1;            
+        }
+        .triangle1{
+            position: relative;
+            width: 0;
+            height: 0;
+            border-left: 140px solid transparent;
+            border-right: 140px solid transparent;
+            border-bottom: 280px solid #F0CD48 ;
+            top: -55px;
+            left: 162px;
+            z-index:0;
+        }
+ </style>
+<body>
+        <div class="circle_down_left"></div>
+        <div class="circle_down_right"></div>
+        <div class="circle_up"></div>
+        <div class="triangle"></div>
+        <div class="triangle1"></div>
+</body>
+</html>
